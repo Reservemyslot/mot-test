@@ -9,6 +9,6 @@ module.exports = {
   DEFAULT_LANGUAGE: 'en',
   ORIGIN: 'http://localhost:3000',
   MONGO_URL:
-    'mongodb+srv://mot_test:r0zV6GLJZFZxTEOH@cluster0.a24xv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+    'mongodb+srv://Mot-test:Nun_656565@cluster0.zj7pu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
   JWT_SECRET: 'I_@M_THE_$ecret_KEY',
 }

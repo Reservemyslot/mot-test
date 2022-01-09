@@ -13,7 +13,7 @@ const s3 = new aws.S3({
 
 const checkFileType = (file, cb) => {
   const filetypes = /jpeg|jpg|png|pdf/
-  const extname = filetypes.test(path.extname(file.originalname).toLowerCase())
+  const extname = filetypes.test(path.extname(file.originalname))
   const mimetype = filetypes.test(file.mimetype)
   if (extname && mimetype) {
     return cb(null, true)
